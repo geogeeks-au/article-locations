@@ -10,6 +10,7 @@ $data = getData();
 foreach ($properties as $prop) {
     $data = array_merge($data, getData($prop));
 }
+makeCsv($data);
 
 function makeCsv($data)
 {
