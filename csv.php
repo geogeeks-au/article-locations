@@ -1,10 +1,13 @@
 <?php
 
 $properties = [
+    'location' => 'P276',
     'place of birth' => 'P19',
-    'place of death' => 'P20',
     'residence' => 'P551',
-    'work location' => 'P937'
+    'educated at' => 'P69',
+    'employer' => 'P108',
+    'work location' => 'P937',
+    'place of death' => 'P20',
 ];
 $data = getData();
 foreach ($properties as $prop) {
